@@ -1,6 +1,6 @@
-NAME = osixia/openldap
+# NAME = osixia/openldap
 # VERSION = 1.5.0
-# NAME = hub.deepin.com/wuhan_udcp/osixia/openldap
+NAME = fkylwj/openldap
 VERSION = 1.5.1
 
 
