@@ -1,6 +1,8 @@
 # Use osixia/light-baseimage
 # sources: https://github.com/osixia/docker-light-baseimage
-FROM osixia/light-baseimage:1.3.2
+# FROM osixia/light-baseimage:1.3.2
+# fix https://github.com/osixia/docker-openldap/issues/252
+FROM hub.deepin.com/wuhan_udcp/osixia/light-baseimage:1.3.4
 
 ARG OPENLDAP_PACKAGE_VERSION=2.4.57
 

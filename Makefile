@@ -1,5 +1,9 @@
-NAME = osixia/openldap
-VERSION = 1.5.0
+# NAME = osixia/openldap
+# VERSION = 1.5.0
+NAME = hub.deepin.com/wuhan_udcp/osixia/openldap
+VERSION = 1.5.1
+
+
 
 .PHONY: build build-nocache test tag-latest push push-latest release git-tag-version
 
